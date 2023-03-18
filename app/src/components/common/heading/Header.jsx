@@ -13,7 +13,7 @@ const Header = () => {
             <header>
 
                 <nav className='flexSB'>
-                    <ul>
+                    <ul className='flexSB'>
 
                         <li>
                             <Link to="/">Home</Link>
