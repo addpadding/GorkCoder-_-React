@@ -1,10 +1,31 @@
-import React from 'react'
+import "./App.css"
+
+import Header from './components/common/heading/Header'
+
+import {
+    BrowserRouter as Router,
+    Switch
+} from "react-router-dom";
 
 const App = () => {
     return (
-        <div>
-            <h1>Hello React</h1>
-        </div>
+        <>
+
+
+            <Router>
+
+                <Header />
+
+                <Switch>
+
+                    {/* <Route path="/about">
+                        <About />
+                    </Route> */}
+
+                </Switch>
+            </Router>
+
+        </>
     )
 }
 
