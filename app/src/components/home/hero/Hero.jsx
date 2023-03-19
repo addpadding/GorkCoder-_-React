@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./hero.css";
-import Title from "../../common/heading/title/Title";
+import Title from "../../common/title/Title";
 
 const Hero = () => {
     return (
@@ -32,6 +32,7 @@ const Hero = () => {
     </section>
 
     <div className="margin"></div>
+    
     </>
     );
 };
