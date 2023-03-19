@@ -1,5 +1,7 @@
 import React from "react";
+
 import "./hero.css";
+import Title from "../../common/heading/title/Title";
 
 const Hero = () => {
     return (
@@ -7,6 +9,9 @@ const Hero = () => {
     <section className="hero">
         <div className="container">
             <div className="row">
+                
+                <Title subtitle="Welcome TO ACADEMIA" title="Best Online Education" />
+
                 <p>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Perspiciatis accusantium beatae cumque, laudantium tempora aliquid
