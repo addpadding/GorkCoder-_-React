@@ -140,3 +140,21 @@ p {
 .marigin {
     margin-top: 40.3%;
 }
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.flex {
+    display: flex;
+}
+
+@media screen and (max-width:768px) {
+    .back {
+        background-position: center;
+        padding-top: 50%;
+        height: 80vh;
+    }
+}

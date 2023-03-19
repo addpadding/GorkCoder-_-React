@@ -31,7 +31,7 @@ const Hero = () => {
         </div>
     </section>
 
-    <div className="margin"></div>
+    <div className="marigin"></div>
     
     </>
     );

@@ -1,3 +1,7 @@
+:root {
+    --Main-Color: #1eb2a6;
+}
+
 .aboutHome {
     height: auto;
 }
@@ -30,4 +34,55 @@
 
 .aboutHome .img {
     width: 200px;
+}
+
+.aboutHome img {
+    width: 70px;
+    height: 70px;
+}
+
+.aboutHome .item h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.aboutHome .item:hover {
+    background-color: var(--Main-Color);
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 5px 25px -2px rgba(0 0 0 / 6%);
+}
+
+.awrabber {
+    background-image: url(../../../public/images/awrapper.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    color: #fff;
+}
+
+.awrabber .box {
+    padding: 70px 0;
+}
+
+.awrabber img {
+    margin-right: 30px;
+}
+
+.awrabber h1 {
+    font-size: 50px;
+}
+
+.awrabber h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+@media screen and (max-width:768px) {
+    .aboutHome .container {
+        flex-direction: column-reverse;
+    }
+
+    .aboutHome .row {}
 }
