@@ -80,9 +80,19 @@
 }
 
 @media screen and (max-width:768px) {
+    .aboutHome {
+        margin-top: 80%;
+    }
+
     .aboutHome .container {
         flex-direction: column-reverse;
     }
 
-    .aboutHome .row {}
+    .aboutHome .row {
+        width: 100%;
+    }
+
+    .awrabber {
+        height: 50vh;
+    }
 }
