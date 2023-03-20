@@ -1,0 +1,76 @@
+:root {
+    --Main-Color: #1eb2a6;
+}
+
+.team .items {
+    transition: 0.3s;
+}
+
+.team .items:hover {
+    background-color: var(--Main-Color);
+    cursor: pointer;
+}
+
+.team .items .img {
+    position: relative;
+}
+
+.team .items .img img {
+    width: 100%;
+    height: 100%;
+}
+
+.team .items .img .overlay {
+    position: absolute;
+    bottom: 0;
+    z-index: 11;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    transition: 0.3s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.team .items:hover .img .overlay {
+    opacity: 1;
+    visibility: visible;
+}
+
+.team .items .img .overlay i {
+    background-color: #000;
+    color: #fff;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+.team .items:hover .img .overlay i:hover {
+    color: #fff;
+    background-color: var(--Main-Color);
+}
+
+.team .items .details {
+    padding: 30px;
+    text-align: center;
+}
+
+.team .items .details h2 {
+    font-weight: 500;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.team .items:hover .details h2 {
+    color: #fff;
+}
+
+.team .items .details p {
+    font-size: 15px;
+    color: grey;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.team .items:hover .details p {
+    color: #fff;
+}
