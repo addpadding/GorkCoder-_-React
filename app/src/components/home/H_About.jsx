@@ -2,6 +2,7 @@ import React from 'react'
 
 import Title from "../common/title/Title"
 import { coursesCard } from '../../dummydata'
+import Oline_Course from '../allcourses/Oline_Course'
 
 
 const H_About = () => {
@@ -87,6 +88,8 @@ const H_About = () => {
 
         </div>
     </section>
+
+    <Oline_Course />
 </>
     )
 }
