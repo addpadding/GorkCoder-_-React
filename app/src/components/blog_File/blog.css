@@ -1,0 +1,45 @@
+:root {
+    --Main-Color: #1eb2a6;
+}
+
+.blog .items .img img {
+    width: 100%;
+    height: 100%;
+}
+
+.blog .items .text {
+    padding: 40px 30px;
+}
+
+.blog .items .text .admin span {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--Main-Color);
+}
+
+.blog .items .text .admin span label {
+    margin-left: 10px;
+    color: grey;
+    font-size: 14px;
+}
+
+.blog .items .text .admin span:nth-last-child(1) label {
+    color: var(--Main-Color);
+}
+
+.blog .items .text h1 {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px;
+    margin: 20px 0;
+    transition: 0.5s;
+}
+
+.blog .items .text h1:hover {
+    color: var(--Main-Color);
+    cursor: pointer;
+}
+
+.blog .items .text p {
+    color: grey;
+}

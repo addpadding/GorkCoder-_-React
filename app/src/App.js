@@ -10,6 +10,7 @@ import courseHome from "./components/allcourses/courseHome";
 import Team from "./components/team/Team";
 
 import Price_main from "./components/priceFile/Price_main";
+import Blog_main from "./components/blog_File/Blog_main";
 
 // ===========================
 const App = () => {
@@ -28,6 +29,7 @@ const App = () => {
                     <Route path="/courses" exact component={courseHome} />
                     <Route path="/team" exact component={Team} />
                     <Route exact path='/pricing' component={Price_main} />
+                    <Route exact path='/journal' component={Blog_main} />
 
                 </Switch>
             </Router>
