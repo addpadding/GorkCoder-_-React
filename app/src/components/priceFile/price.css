@@ -1,0 +1,61 @@
+:root {
+    --Main-Color: #1eb2a6;
+}
+
+.price .items {
+    padding: 40px;
+    text-align: center;
+}
+
+.price .items h1 {
+    font-size: 50px;
+    margin: 20px 0;
+    color: var(--Main-Color);
+}
+
+.price .items h1 span {
+    font-size: 20px;
+    margin-right: 5px;
+    color: #000;
+}
+
+.price .items p {
+    color: grey;
+    margin: 40px 0;
+}
+
+/*--------------faq-------------*/
+.faq .container {
+    max-width: 70%;
+    border-radius: 5px;
+}
+
+.faq .box {
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.faq .box .accordion {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px 20px;
+}
+
+.faq .box .accordion:hover {
+    background-color: var(--Main-Color);
+    color: #fff;
+}
+
+.faq .box .accordion h2 {
+    font-weight: 500;
+}
+
+.faq .box .text p {
+    padding: 20px;
+}
+
+
+/*--------------faq-------------*/
