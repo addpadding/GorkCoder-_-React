@@ -12,6 +12,7 @@ import Team from "./components/team/Team";
 import Price_main from "./components/priceFile/Price_main";
 import Blog_main from "./components/blog_File/Blog_main";
 import Contact_main from "./components/Contact_File/Contact_main";
+import Footer_main from "./components/common/footer_file/Footer_main";
 
 // ===========================
 const App = () => {
@@ -24,7 +25,6 @@ const App = () => {
                 <Header />
 
                 <Switch>
-
                     <Route path="/" exact component={Home} />
                     <Route path="/about" exact component={About} />
                     <Route path="/courses" exact component={courseHome} />
@@ -32,8 +32,9 @@ const App = () => {
                     <Route exact path='/pricing' component={Price_main} />
                     <Route exact path='/journal' component={Blog_main} />
                     <Route exact path='/contact' component={Contact_main} />
-
                 </Switch>
+
+                <Footer_main />
             </Router>
 
         </>
